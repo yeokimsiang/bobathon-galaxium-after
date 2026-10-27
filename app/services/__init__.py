@@ -10,3 +10,5 @@ class NotFoundError(LookupError):
 
 class ConflictError(ValueError):
     """The request is valid but not allowed in the current state (HTTP 409)."""
+
+# Based on IBM's Galaxium Travels demo (https://github.com/IBM/galaxium-travels), Apache License 2.0; cut down and rewritten for Galaxium Lite.

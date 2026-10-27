@@ -27,3 +27,5 @@ def test_get_unknown_flight_is_404(client):
 
     assert response.status_code == 404
     assert response.json() == {"detail": "Flight 999 not found"}
+
+# Based on IBM's Galaxium Travels demo (https://github.com/IBM/galaxium-travels), Apache License 2.0; cut down and rewritten for Galaxium Lite.

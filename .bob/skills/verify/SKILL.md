@@ -36,3 +36,5 @@ pytest  | PASS   | <final pytest line, e.g. "11 passed in 0.3s">
   (e.g. `tests/test_bookings.py::test_cancel_booking`), show the assertion
   message, and suggest the most likely fix.
 - Never report a pass you did not see in the output.
+
+Adapted from the verify skill in IBM's Galaxium Travels (.bob/skills/verify/SKILL.md, https://github.com/IBM/galaxium-travels), Apache License 2.0; changed for Galaxium Lite.

@@ -35,3 +35,5 @@ def client(db_file):
     # No `with` block: the lifespan would seed using the real clock.
     yield TestClient(app)
     app.dependency_overrides.clear()
+
+# Based on IBM's Galaxium Travels demo (https://github.com/IBM/galaxium-travels), Apache License 2.0; cut down and rewritten for Galaxium Lite.

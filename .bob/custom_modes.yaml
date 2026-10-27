@@ -17,3 +17,5 @@ customModes:
       say so instead of guessing.
     groups:
       - read
+
+# The Reviewer mode is adapted from the code-reviewer mode in IBM's Galaxium Travels (.bob/custom_modes.yaml, https://github.com/IBM/galaxium-travels), Apache License 2.0; changed for Galaxium Lite.

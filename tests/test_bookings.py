@@ -118,3 +118,5 @@ def test_refund_preview_after_departure_is_409(conn):
 
     with pytest.raises(ConflictError, match="already departed"):
         bookings.refund_preview(conn, 3, now=after_departure)
+
+# Based on IBM's Galaxium Travels demo (https://github.com/IBM/galaxium-travels), Apache License 2.0; cut down and rewritten for Galaxium Lite.

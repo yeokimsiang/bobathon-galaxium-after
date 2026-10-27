@@ -15,3 +15,5 @@ def get_flight(conn: sqlite3.Connection, flight_id: int) -> dict:
     if row is None:
         raise NotFoundError(f"Flight {flight_id} not found")
     return dict(row)
+
+# Based on IBM's Galaxium Travels demo (https://github.com/IBM/galaxium-travels), Apache License 2.0; cut down and rewritten for Galaxium Lite.

@@ -255,3 +255,15 @@ Bob asks your permission before it loads a skill, unless you auto-approve skills
 | Hooks (`.bob/settings.json`) | An earlier version of this kit had a hook that ran the tests before every commit. We took it out to keep the lab short. |
 | `.bobignore` | Nothing in this project needs hiding from Bob. |
 | Auto-approval | Nothing is pre-approved, so Bob asks before every edit, command, tool call and skill. You can loosen that in Bob's settings once you trust a workflow. |
+
+## Credits and copyright
+
+- **The app** (`app/`, `tests/`) is based on IBM's [Galaxium Travels](https://github.com/IBM/galaxium-travels) demo, used under the Apache License 2.0
+  (see `LICENSE`), and cut down and rewritten for this lab. Each of those files says so at its end.
+- **The lab's exercise**, a refund preview on cancel, follows a scenario from IBM's Galaxium Travels demos, with simpler
+  refund rules of our own.
+- **In the `.bob/` kit**, the Reviewer mode (`custom_modes.yaml`) and the verify skill (`skills/verify/SKILL.md`) are
+  adapted from the `.bob/` configuration in IBM's Galaxium Travels, under the same licence. Each says so at its end.
+- **The lab guide and the before/after demo pages**: © 2026 Ingram Micro. All rights reserved.
+- **The guide's videos and screenshots** are recordings of IBM Bob. IBM, IBM Bob and the IBM logo are trademarks of
+  International Business Machines Corporation.

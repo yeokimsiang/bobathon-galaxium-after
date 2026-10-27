@@ -79,3 +79,5 @@ def refund_preview(conn: sqlite3.Connection, booking_id: int, now: datetime) -> 
         "refund_pct": pct,
         "refund_amount": round(flight["price"] * pct / 100, 2),
     }
+
+# Based on IBM's Galaxium Travels demo (https://github.com/IBM/galaxium-travels), Apache License 2.0; cut down and rewritten for Galaxium Lite.
